@@ -6,3 +6,4 @@ public
 /build
 .env
 .idea
+.vercel
