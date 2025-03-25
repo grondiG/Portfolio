@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["header.scss"],
-  "sourcesContent": [".menu-item {\n  background: red;\n  position: relative;\n\n  &:hover {\n    &::after {\n      content: '';\n      position: absolute;\n      width: 100%;\n      height: 2px;\n      background-color: #fff;\n      bottom: 0;\n      left: 0;\n    }\n  }\n}\n"],
-  "mappings": ";AAAA;AACE;AACA;;AAGE;AACE;AACA;AACA;AACA;AACA;AACA;AACA;;",
-  "names": []
-}
