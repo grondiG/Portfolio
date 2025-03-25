@@ -255,7 +255,7 @@ export default function Contact() {
                     transition={{ duration: 0.5 }}
                     className='flex justify-center items-center w-full h-full'
                 >
-                    <img className='w-80' src='/assets/contact-icon.png' alt='Contact'/>
+                    <img className='w-80' src='assets/contact-icon.png' alt='Contact'/>
                 </motion.div>
             </div>
         </div>

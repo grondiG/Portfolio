@@ -26,7 +26,7 @@ export default function Header({handleNavClick}: {handleNavClick: (id: string) =
     return (
         <header className="bg-black w-full h-15 fixed top-0 z-10">
             <div className="container flex mx-auto p-4 items-center justify-between">
-                <div>
+                <div className='flex-1'>
                     <h1 className="text-white text-2xl courier-prime-regular cursor-pointer">
                         <a href="#hero" onClick={(e) => {
                             handleNavClick('hero')(e);
@@ -37,7 +37,6 @@ export default function Header({handleNavClick}: {handleNavClick: (id: string) =
                     </h1>
                 </div>
 
-                {/* Mobile Menu Toggle */}
                 <div className="md:hidden">
                     <button
                         onClick={toggleMobileMenu}
@@ -55,9 +54,8 @@ export default function Header({handleNavClick}: {handleNavClick: (id: string) =
                     </button>
                 </div>
 
-                {/* Desktop Menu */}
-                <div className='hidden md:block flex-1 items-center justify-end'>
-                    <ul className='courier-prime-regular flex gap-5 hover:cursor-pointer'>
+                <div className='hidden md:block  flex-1'>
+                    <ul className='courier-prime-regular flex items-center justify-end gap-5 hover:cursor-pointer'>
                         <li className='text-white menu-item'>
                             <a href="#about" onClick={handleNavClick('about')}>about</a>
                         </li>
