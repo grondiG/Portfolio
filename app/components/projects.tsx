@@ -23,7 +23,7 @@ export default function Projects() {
             description: 'Personal portfolio showcasing projects and skills with modern design and animations.',
             technologies: ['React', 'Remix', 'Motion', 'CSS3', 'Tailwind CSS'],
             imageUrl: 'assets/portfolio.png',
-            demoUrl: 'https://example.com/portfolio',
+            demoUrl: 'https://portfolio-chi-navy-79.vercel.app/',
             githubUrl: 'https://github.com/grondiG/Portfolio'
         }
     ];
