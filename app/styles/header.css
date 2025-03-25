@@ -1,0 +1,18 @@
+.menu-item {
+  position: relative;
+}
+.menu-item::after {
+  content: "";
+  transition: width 0.3s ease;
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+}
+.menu-item:hover::after {
+  width: 100%;
+}
+
+/*# sourceMappingURL=header.css.map */

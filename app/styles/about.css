@@ -1,0 +1,115 @@
+.about {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.skills-container {
+  max-width: 450px;
+}
+
+.skill-progress {
+  transition: width 1.5s ease-in-out;
+}
+
+.experience-timeline {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 50px;
+  padding-left: 30px;
+  border-left: 2px solid rgba(255, 255, 255, 0.1);
+  max-width: 400px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -36px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #333;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.timeline-item:hover::before {
+  background: #555;
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.timeline-content {
+  padding: 0 15px;
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover .timeline-content {
+  transform: translateX(5px);
+}
+
+.code-snippets {
+  position: absolute;
+  right: 20px;
+  bottom: -50px;
+  perspective: 1000px;
+}
+
+.code-block {
+  position: absolute;
+  border-radius: 8px;
+  background: rgba(30, 30, 30, 0.8);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(60, 60, 60, 0.6);
+  transform-style: preserve-3d;
+  transition: 0.4s ease-in-out transform, 0.4s ease-in-out box-shadow;
+  overflow: hidden;
+}
+
+.code-block::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70%;
+  height: 70%;
+  background: repeating-linear-gradient(rgba(100, 100, 100, 0.15) 0px, rgba(100, 100, 100, 0.15) 1px, transparent 1px, transparent 2px);
+  z-index: -1;
+}
+
+.code-block-1 {
+  width: 280px;
+  height: 180px;
+  transform: rotateX(51deg) rotateZ(43deg);
+  right: 30px;
+  bottom: 100px;
+}
+
+.code-block-2 {
+  width: 220px;
+  height: 140px;
+  transform: rotateX(51deg) rotateZ(43deg);
+  right: 140px;
+  bottom: 160px;
+}
+
+.code-block-3 {
+  width: 180px;
+  height: 120px;
+  transform: rotateX(51deg) rotateZ(43deg);
+  right: 80px;
+  bottom: 50px;
+}
+
+.code-block:hover {
+  transform: translate3d(0px, -16px, 0px) rotateX(51deg) rotateZ(43deg);
+  box-shadow: 1px 1px 0 1px #404040, -1px 0 28px 0 rgba(0, 0, 0, 0.1), 54px 54px 28px -10px rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=about.css.map */
