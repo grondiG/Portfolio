@@ -5,7 +5,7 @@ export default function Projects() {
     const projects: Array<{title: string, description: string, technologies: Array<string>, imageUrl: string, demoUrl: string, githubUrl?: string}> = [
         {
             title: 'Expo Aluminium',
-            description: 'A fast, SEO-friendly e-commerce web store built with Gatsby.js, AWS, and Node.js. Includes an admin panel for product/order management and secure Stripe payments.',
+            description: 'A fast, SEO-friendly e-commerce web store for Polish company built with Gatsby.js, AWS, and Node.js. Includes an admin panel for product/order management and secure Stripe payments.',
             technologies: ['React', 'Node.js', 'Gatsby', 'AWS', 'DynamoDB'],
             imageUrl: 'assets/image1.png',
             demoUrl: 'https://expo-aluminium.pl',

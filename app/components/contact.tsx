@@ -108,7 +108,7 @@ export default function Contact() {
 
     return (
         <div
-            className="contact flex flex-col md:flex-row w-full h-auto md:h-screen overflow-hidden px-4 md:px-14 py-10 md:py-20 bg-gradient-to-br from-neutral-950 via-neutral-900 to-neutral-800">
+            className="contact flex flex-col md:flex-row w-screen h-auto md:h-screen overflow-hidden px-4 md:px-14 py-10 md:py-20 bg-gradient-to-br from-neutral-950 via-neutral-900 to-neutral-800">
             <div
                 className="container flex-1 md:flex-2 flex flex-col justify-center prose px-4 md:pl-20 text-center md:text-left">
                 <motion.div

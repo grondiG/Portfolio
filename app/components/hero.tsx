@@ -11,7 +11,7 @@ export default function Hero({handleNavClick}: {handleNavClick: (id: string) => 
                 transition={{ duration: 0.5 }}
             >
                 <h1 className='lora mb-4 text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-none tracking-tight'>
-                    Arkadiusz Grondys Portfolio
+                    Arkadiusz Grondys
                 </h1>
                 <p className='courier-prime-regular text-zinc-300 text-sm md:text-base'>
                     Frontend developer with 2+ years of experience building web/mobile apps using Angular, React, .NET, and AWS. Skilled in scalable e-commerce platforms, CMS integrations, and cross-platform solutions. Erasmus+ intern with international project exposure. Passionate about clean code, cloud tech, and emerging tools. Always learning.
